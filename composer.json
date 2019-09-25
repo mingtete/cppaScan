@@ -1,0 +1,32 @@
+{
+    "name": "mingtete/scan",
+    "description" : "url扫描器,选出失效的url地址",
+    "keywords": ["url", "scan", "csv"],
+    "homepage" : "http://scan.mingtete.cn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "MingTeYou",
+            "email" : "1984859628@qq.com",
+            "role" : "Developer"
+        }
+    ],
+    "support": {
+        "email": "1984859628@qq.com"
+    },
+    "require": {
+        "php" : ">=7.0.10",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^6.0"
+    },
+    "suggest": {
+        "league/csv": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mingtete\\": "src"
+        }
+    }
+}
